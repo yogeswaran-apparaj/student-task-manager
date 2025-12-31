@@ -60,29 +60,30 @@ A visually stunning, interactive task management application built for internshi
 ## 📁 Project Structure
 student-task-manager/
 ├── frontend/
-│ ├── index.html # Main entry
-│ ├── login.html # Login page
-│ ├── dashboard.html # Dashboard page
-│ ├── css/
-│ │ ├── style.css # Main styles
-│ │ └── animations.css # Animation styles
-│ ├── js/
-│ │ ├── main.js # Shared utilities
-│ │ ├── login.js # Login logic
-│ │ └── dashboard.js # Dashboard logic
-│ └── assets/ # Images/icons
+│   ├── index.html          # Main entry
+│   ├── login.html          # Login page
+│   ├── dashboard.html      # Dashboard page
+│   ├── css/
+│   │   ├── style.css       # Main styles
+│   │   └── animations.css  # Animation styles
+│   ├── js/
+│   │   ├── main.js         # Shared utilities
+│   │   ├── login.js        # Login logic
+│   │   └── dashboard.js    # Dashboard logic
+│   └── assets/             # Images / icons
 │
 ├── backend/
-│ ├── server.js # Main server file
-│ ├── package.json # Dependencies
-│ ├── .env # Environment variables
-│ ├── models/
-│ │ └── Task.js # MongoDB schema
-│ └── routes/
-│ └── tasks.js # API routes
+│   ├── server.js           # Main server file
+│   ├── package.json        # Dependencies
+│   ├── .env                # Environment variables
+│   ├── models/
+│   │   └── Task.js         # MongoDB schema
+│   └── routes/
+│       └── tasks.js        # API routes
 │
-├── README.md # This file
-└── DEPLOYMENT.md # Deployment guide
+├── README.md               # Project documentation
+└── DEPLOYMENT.md           # Deployment guide
+
 
 ## 🚀 Quick Start
 
