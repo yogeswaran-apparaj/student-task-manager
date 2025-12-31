@@ -59,6 +59,7 @@ A visually stunning, interactive task management application built for internshi
 
 ## 📁 Project Structure
 
+```text
 student-task-manager/
 ├── frontend/
 │   ├── index.html          # Main entry
@@ -84,6 +85,8 @@ student-task-manager/
 │
 ├── README.md              # Project documentation
 └── DEPLOYMENT.md          # Deployment guide
+```
+
 
 
 ## 🚀 Quick Start
