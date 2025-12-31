@@ -8,7 +8,7 @@ A visually stunning, interactive task management application built for internshi
 
 ## ✨ Live Demo
 
-🔗 **Live Application:** [https://student-task-manager.netlify.app](https://student-task-manager.netlify.app) *(Deploy your own to see)*
+🔗 **Live Application:** https://student-taskmanger.netlify.app/
 
 👤 **Demo Credentials:**
 - Username: `admin`
@@ -20,7 +20,7 @@ A visually stunning, interactive task management application built for internshi
 
 ## 🚀 Features
 
-### 🎨 Creative Frontend
+## 🎨 Creative Frontend
 - **3D Animated Task Cards** with CSS transforms
 - **Custom Animated Cursor** with follower effect
 - **Glassmorphism UI Design** with modern gradients
@@ -28,31 +28,31 @@ A visually stunning, interactive task management application built for internshi
 - **Responsive Layout** for all devices
 - **Interactive Micro-interactions** and hover effects
 
-### ⚙️ Backend Features
+## ⚙️ Backend Features
 - **RESTful API** with Node.js/Express
 - **MongoDB Database** for task persistence
 - **CRUD Operations** (Create, Read, Update, Delete)
 - **Simple Demo Authentication** (frontend-based)
 
-### 📱 Pages
+## 📱 Pages
 1. **Login Page** - Animated form with demo credentials
 2. **Task Dashboard** - Interactive task management interface
 
 ## 🛠️ Tech Stack
 
-### Frontend
+## Frontend
 - HTML5
 - CSS3 (with CSS Variables, Animations, 3D Transforms)
 - Vanilla JavaScript (ES6+)
 - Font Awesome Icons
 
-### Backend
+## Backend
 - Node.js
 - Express.js
 - MongoDB + Mongoose
 - CORS middleware
 
-### Development Tools
+## Development Tools
 - MongoDB Atlas (Cloud Database)
 - Render/Netlify (Hosting)
 - Git & GitHub
@@ -86,12 +86,12 @@ student-task-manager/
 
 ## 🚀 Quick Start
 
-### Prerequisites
+## Prerequisites
 - Node.js (v14 or higher)
 - MongoDB (Local or Atlas)
 - Modern web browser
 
-### Local Installation
+## Local Installation
 
 1. **Clone the repository**
    ```bash
@@ -101,17 +101,17 @@ student-task-manager/
 cd backend
 npm install
 
-# Create .env file
+#Create .env file
 echo "MONGODB_URI=mongodb://localhost:27017/task_manager" >> .env
 echo "PORT=5000" >> .env
 
-# Start backend
+#Start backend
 npm start
 
 3. **Frontend setup**
-# Open in browser
+#Open in browser
 open frontend/login.html
-# or
+#or
 start frontend/login.html  # Windows
 
 4. **Access the Application**
@@ -122,23 +122,23 @@ Or open frontend/login.html directly
 
 Login with: admin / admin123
 
-### 🎯 API Endpoints
+## 🎯 API Endpoints
 Method	Endpoint	Description
 GET    	/tasks	    Get all tasks
 POST	  /tasks  	  Create new task
 PUT	    /tasks/:id	Update task status
 DELETE	/tasks/:id	Delete task
 
-### 📱 Screenshots
+## 📱 Screenshots
 
-# Login Page
+### Login Page
 <img width="1917" height="964" alt="image" src="https://github.com/user-attachments/assets/73d3fe60-16a5-475c-9a6e-946510d3fe14" />
 
-# Dashboard
+### Dashboard
 
 <img width="1919" height="968" alt="image" src="https://github.com/user-attachments/assets/3cd2a40c-15d9-4e4a-a868-8868eb4d6282" />
 
-### 🎨 Design Features
+## 🎨 Design Features
 1. **3D Task Cards**
 CSS 3D transforms with perspective
 
@@ -168,7 +168,7 @@ Flexible grid layouts
 
 Adaptive typography
 
-### 🔐 Authentication Note
+## 🔐 Authentication Note
 This project uses demo authentication for simplicity:
 
 Authentication handled in frontend only
@@ -179,8 +179,8 @@ No database-based user management
 
 Suitable for internship demonstration
 
-### 🏗️ Architecture
-# Frontend Layer
+## 🏗️ Architecture
+### Frontend Layer
 Handles UI rendering and user interactions
 
 Manages client-side state
@@ -189,7 +189,7 @@ Communicates with backend via REST API
 
 Implements demo authentication
 
-# Backend Layer
+### Backend Layer
 Provides RESTful API endpoints
 
 Manages database operations
@@ -198,12 +198,12 @@ No authentication (simplified for demo)
 
 Error handling and validation
 
-# Database Layer
+### Database Layer
 MongoDB with single tasks collection
 
 Task schema with title, description, status, and timestamps
 
-### 📊 Database Schema
+## 📊 Database Schema
 Task {
   title: String,        // Required
   description: String,  // Optional
@@ -211,16 +211,16 @@ Task {
   createdAt: Date       // Auto-generated
 }
 
-### 🚢 Deployment
+## 🚢 Deployment
 
-# Render + Netlify
+### Render + Netlify
 Backend: Deploy to Render
 
 Frontend: Deploy to Netlify
 
 Database: Use MongoDB Atlas
 
-### 🤝 Contributing
+## 🤝 Contributing
 This is an internship project, but suggestions are welcome:
 
 Fork the repository
@@ -233,7 +233,7 @@ Push to the branch
 
 Open a Pull Request
 
-### 🎓 Learning Outcomes
+## 🎓 Learning Outcomes
 
 This project demonstrates:
 
@@ -247,14 +247,14 @@ Database Integration - MongoDB with Mongoose
 
 Project Architecture - Organized code structure
 
-### 📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 
 YOGESWARAN APPARAJ
 
-### 🙏 Acknowledgments
+## 🙏 Acknowledgments
 
 Icons by Font Awesome
 
