@@ -58,6 +58,7 @@ A visually stunning, interactive task management application built for internshi
 - Git & GitHub
 
 ## 📁 Project Structure
+
 student-task-manager/
 ├── frontend/
 │   ├── index.html          # Main entry
@@ -65,24 +66,24 @@ student-task-manager/
 │   ├── dashboard.html      # Dashboard page
 │   ├── css/
 │   │   ├── style.css       # Main styles
-│   │   └── animations.css  # Animation styles
+│   │   └── animations.css # Animation styles
 │   ├── js/
-│   │   ├── main.js         # Shared utilities
-│   │   ├── login.js        # Login logic
-│   │   └── dashboard.js    # Dashboard logic
-│   └── assets/             # Images / icons
+│   │   ├── main.js        # Shared utilities
+│   │   ├── login.js       # Login logic
+│   │   └── dashboard.js   # Dashboard logic
+│   └── assets/            # Images / icons
 │
 ├── backend/
-│   ├── server.js           # Main server file
-│   ├── package.json        # Dependencies
-│   ├── .env                # Environment variables
+│   ├── server.js          # Main server file
+│   ├── package.json       # Dependencies
+│   ├── .env               # Environment variables
 │   ├── models/
-│   │   └── Task.js         # MongoDB schema
+│   │   └── Task.js        # MongoDB schema
 │   └── routes/
-│       └── tasks.js        # API routes
+│       └── tasks.js       # API routes
 │
-├── README.md               # Project documentation
-└── DEPLOYMENT.md           # Deployment guide
+├── README.md              # Project documentation
+└── DEPLOYMENT.md          # Deployment guide
 
 
 ## 🚀 Quick Start
