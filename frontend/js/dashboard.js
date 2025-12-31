@@ -40,7 +40,7 @@ interactiveElements.forEach(element => {
 });
 
 // Backend API URL (update if needed)
-const API_URL = 'http://localhost:5000/tasks'; 
+const API_URL = 'https://student-task-manager-backend-iwyy.onrender.com'; 
 
 // DOM Elements
 const tasksContainer = document.getElementById('tasksContainer');
@@ -410,4 +410,5 @@ function showError(message) {
         errorDiv.style.animation = 'slideIn 0.3s ease-out reverse';
         setTimeout(() => errorDiv.remove(), 300);
     }, 5000);
+
 }
